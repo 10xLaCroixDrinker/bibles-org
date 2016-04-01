@@ -1,0 +1,34 @@
+{
+  "name": "bibles-org",
+  "version": "0.0.0",
+  "description": "A convenience wrapper for the bibles.org API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freedomcity/bibles-org.git"
+  },
+  "keywords": [
+    "bible",
+    "api",
+    "wrapper",
+    "biblesearch",
+    "bibles.org"
+  ],
+  "author": "Jimmy King <hello@jimmyking.me> (http://jimmyking.me)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/freedomcity/bibles-org/issues"
+  },
+  "homepage": "https://github.com/freedomcity/bibles-org#readme",
+  "devDependencies": {
+    "mocha": "^2.4.5"
+  },
+  "dependencies": {
+    "lazy.js": "^0.4.2",
+    "nodeify": "^1.0.0",
+    "request-promise": "^2.0.1"
+  }
+}
