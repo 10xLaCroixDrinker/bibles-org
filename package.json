@@ -1,6 +1,6 @@
 {
   "name": "bibles-org",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A convenience wrapper for the bibles.org API",
   "main": "index.js",
   "scripts": {
@@ -23,9 +23,6 @@
     "url": "https://github.com/freedomcity/bibles-org/issues"
   },
   "homepage": "https://github.com/freedomcity/bibles-org#readme",
-  "devDependencies": {
-    "mocha": "^2.4.5"
-  },
   "dependencies": {
     "lazy.js": "^0.4.2",
     "nodeify": "^1.0.0",

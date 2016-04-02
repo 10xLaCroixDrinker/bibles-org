@@ -99,13 +99,17 @@ BiblesOrg.prototype.bookGroups = function bookGroups(callback) {
   return nodeify(request.get(this.baseUrl + 'bookgroups' + this.extension), callback);
 };
 
-BiblesOrg.prototype.bookGroup = function bookGroup(groupId, callback) {
+BiblesOrg.prototype.bookGroup = function bookGroup(opts, callback) {
+  var groupId = typeof opts === 'string' ? opts : opts.group;
+
   return nodeify(request.get(this.baseUrl + 'bookgroups/' + groupId + this.extension), callback);
 };
 
-BiblesOrg.prototype.bookGroupBooks = function bookGroupBooks(groupId, callback) {
+BiblesOrg.prototype.bookGroupBooks = function bookGroupBooks(opts, callback) {
   // This is written as documented here: https://bibles.org/pages/api/documentation/books
   // but it returns a 404
+  var groupId = typeof opts === 'string' ? opts : opts.group;
+
   return nodeify(request.get(this.baseUrl + 'bookgroups/' + groupId + '/books' + this.extension), callback);
 };
 
@@ -113,7 +117,9 @@ BiblesOrg.prototype.tags = function tags(callback) {
   return nodeify(request.get(this.baseUrl + 'tags' + this.extension), callback);
 };
 
-BiblesOrg.prototype.tag = function tag(tag, callback) {
+BiblesOrg.prototype.tag = function tag(opts, callback) {
+  var tag = typeof opts === 'string' ? opts : opts.tag;
+
   return nodeify(request.get(this.baseUrl + 'tags/' + encodeURI(tag) + this.extension), callback);
 };
 
