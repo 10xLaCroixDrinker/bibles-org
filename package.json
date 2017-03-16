@@ -26,6 +26,6 @@
   "dependencies": {
     "lazy.js": "^0.4.2",
     "nodeify": "^1.0.0",
-    "request-promise": "^2.0.1"
+    "request-promise": "^4.2.0"
   }
 }
