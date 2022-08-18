@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/freedomcity/bibles-org.git"
+    "url": "git+https://github.com/10xLaCroixDrinker/bibles-org.git"
   },
   "keywords": [
     "bible",
@@ -17,12 +17,12 @@
     "biblesearch",
     "bibles.org"
   ],
-  "author": "Jimmy King <hello@jimmyking.me> (http://jimmyking.me)",
+  "author": "Jamie King <hello@jamieking.me> (http://jamieking.me)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/freedomcity/bibles-org/issues"
+    "url": "https://github.com/10xLaCroixDrinker/bibles-org/issues"
   },
-  "homepage": "https://github.com/freedomcity/bibles-org#readme",
+  "homepage": "https://github.com/10xLaCroixDrinker/bibles-org#readme",
   "dependencies": {
     "lazy.js": "^0.4.2",
     "nodeify": "^1.0.0",
